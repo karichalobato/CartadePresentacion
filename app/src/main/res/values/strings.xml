@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carta de Presentacion</string>
+    <string name="name_nestor">Karicha Lobato</string>
+    <string name="hint_text_your_email">Your email</string>
+    <string name="hint_text_message">Write what you need</string>
+    <string name="text_message">Message</string>
+    <string name="text_contact">Contact</string>
+</resources>
