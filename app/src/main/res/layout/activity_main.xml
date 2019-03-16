@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background"
     tools:context=".MainActivity"
     android:gravity="center">
 
@@ -15,83 +16,93 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="@dimen/standard_height"
+            android:layout_height="@dimen/standard_width"
+            android:layout_marginTop="30dp"
             android:layout_gravity="center"
             android:src="@mipmap/kari_ico_round"
-            android:padding="30dp"/>
+            android:padding="20dp"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Karicha Lobato"
-            android:textSize="25dp"
             android:textColor="@color/colorPrimary"
-            android:layout_gravity="center"/>
+            android:textSize="40dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center"
+            android:orientation="horizontal"
             android:padding="30dp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/facebook_icon"
-                android:layout_margin="10dp"/>
+                android:layout_width="@dimen/size_iconRedesSociales"
+                android:layout_height="@dimen/size_iconRedesSociales"
+                android:layout_margin="10dp"
+                android:src="@mipmap/facebook_icon" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/standar_marginTop"
+                android:textColor="@color/colorPrimary"
                 android:text="Karicha Lobato"
-                android:layout_margin="10dp"/>
+                android:textSize="@dimen/text_size_small"/>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/instagram_icon"
-                android:layout_margin="10dp"/>
+                android:layout_width="@dimen/size_iconRedesSociales"
+                android:layout_height="@dimen/size_iconRedesSociales"
+                android:layout_margin="10dp"
+                android:src="@mipmap/instagram_icon" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="@dimen/standar_marginTop"
+                android:textColor="@color/colorPrimary"
                 android:text="klobato_"
-                android:layout_margin="10dp"/>
+                android:textSize="@dimen/text_size_small"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center"
+            android:orientation="horizontal"
             android:padding="90dp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/size_iconRedesSociales"
+                android:layout_height="@dimen/size_iconRedesSociales"
                 android:layout_gravity="center"
-                android:src="@mipmap/github"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:src="@mipmap/github" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="karichalobato"
-                android:textColor="@color/colorPrimary"
                 android:layout_gravity="center"
-                android:layout_margin="10dp" />
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/standar_marginTop"
+                android:text="karichalobato"
+                android:textSize="@dimen/text_size_small"
+                android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
-
 
     </LinearLayout>
 

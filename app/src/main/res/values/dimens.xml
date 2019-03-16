@@ -3,4 +3,9 @@
     <dimen name="base_padding">8dp</dimen>
     <dimen name="small_padding">2dp</dimen>
     <dimen name="text_size_big">40sp</dimen>
+    <dimen name="text_size_small">15dp</dimen>
+    <dimen name="standard_width">200dp</dimen>
+    <dimen name="standard_height">200dp</dimen>
+    <dimen name="size_iconRedesSociales">70dp</dimen>
+    <dimen name="standar_marginTop">30dp</dimen>
 </resources>
